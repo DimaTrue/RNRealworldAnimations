@@ -33,8 +33,7 @@ export default class AnimatedModal extends Component {
     }
   }
   render() {
-    const { title, image, children, onClose } = this.props;
-    let bottomStyle = this.props.visible ? { bottom: 0 } : { bottom: -height };
+    const { title, children, onClose } = this.props;
     let negativeHeight = -height + 20;
     let modalMoveY = this.yTranslate.interpolate({
       inputRange: [0, 1],
