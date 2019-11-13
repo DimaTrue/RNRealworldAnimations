@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, TouchableWithoutFeedback, Animated, Easing } from 'react-native';
+import { TouchableWithoutFeedback, Animated, Easing } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const icon_color = '#586069';
